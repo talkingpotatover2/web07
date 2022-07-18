@@ -24,7 +24,6 @@
 		Cookie s = new Cookie("idcheck",idcheck);
 		c.setMaxAge(60*60);
 		response.addCookie(s);
-		
 %>
 	로그인 성공
 <% 	}else{%>
